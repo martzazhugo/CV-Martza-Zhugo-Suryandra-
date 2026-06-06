@@ -1,0 +1,162 @@
+/* ===========================================
+   style.css - CV Martza Zhugo Suryandra
+   Mata Kuliah: Web Pemrograman I
+   =========================================== */
+
+/* Reset dasar */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container utama */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #34495e;
+}
+
+/* Navigasi */
+.nav {
+    background-color: #2c3e50;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 3px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: #3498db;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px 10px;
+}
+
+tr:hover {
+    background-color: #f0f7ff;
+}
+
+/* Gambar */
+img {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.foto-profil {
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Link navigasi bawah */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.back-link:hover {
+    background-color: #2980b9;
+}
+
+/* Gallery hobi */
+.gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Link list */
+.link-list a {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 8px 15px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.link-list a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #888;
+    font-size: 0.85em;
+}
+
+/* Garis pemisah */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
